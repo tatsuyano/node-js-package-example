@@ -1,0 +1,38 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'node',
+1 verbose cli   '/home/noguchi/.anyenv/envs/ndenv/versions/v0.10.26/bin/npm',
+1 verbose cli   'dist-tag',
+1 verbose cli   'ls' ]
+2 info using npm@2.10.0
+3 info using node@v0.10.26
+4 silly mapToRegistry name node-js-package-example
+5 silly mapToRegistry using default registry
+6 silly mapToRegistry registry http://localhost:15443/
+7 silly mapToRegistry uri http://localhost:15443/node-js-package-example
+8 verbose request uri http://localhost:15443/-/package/node-js-package-example/dist-tags
+9 verbose request no auth needed
+10 info attempt registry request try #1 at 15:06:09
+11 verbose request id 829497c5ad3ba9b0
+12 http request GET http://localhost:15443/-/package/node-js-package-example/dist-tags
+13 http 200 http://localhost:15443/-/package/node-js-package-example/dist-tags
+14 error dist-tag ls Couldn't get dist-tag data for node-js-package-example
+15 verbose stack Error: No dist-tags found for node-js-package-example
+15 verbose stack     at /home/noguchi/.anyenv/envs/ndenv/versions/v0.10.26/lib/node_modules/npm/lib/dist-tag.js:145:19
+15 verbose stack     at /home/noguchi/.anyenv/envs/ndenv/versions/v0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/dist-tags/fetch.js:35:5
+15 verbose stack     at /home/noguchi/.anyenv/envs/ndenv/versions/v0.10.26/lib/node_modules/npm/lib/cache/caching-client.js:52:8
+15 verbose stack     at f (/home/noguchi/.anyenv/envs/ndenv/versions/v0.10.26/lib/node_modules/npm/node_modules/once/once.js:17:25)
+15 verbose stack     at /home/noguchi/.anyenv/envs/ndenv/versions/v0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:68:16
+15 verbose stack     at f (/home/noguchi/.anyenv/envs/ndenv/versions/v0.10.26/lib/node_modules/npm/node_modules/once/once.js:17:25)
+15 verbose stack     at CachingRegistryClient.<anonymous> (/home/noguchi/.anyenv/envs/ndenv/versions/v0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:255:12)
+15 verbose stack     at Request._callback (/home/noguchi/.anyenv/envs/ndenv/versions/v0.10.26/lib/node_modules/npm/node_modules/npm-registry-client/lib/request.js:170:14)
+15 verbose stack     at Request.self.callback (/home/noguchi/.anyenv/envs/ndenv/versions/v0.10.26/lib/node_modules/npm/node_modules/request/request.js:368:22)
+15 verbose stack     at Request.EventEmitter.emit (events.js:98:17)
+16 verbose cwd /home/noguchi/src/nodeschool-workshop/how-to-npm-jp/node-js-package-example
+17 error Linux 3.14.27-25.47.amzn1.x86_64
+18 error argv "node" "/home/noguchi/.anyenv/envs/ndenv/versions/v0.10.26/bin/npm" "dist-tag" "ls"
+19 error node v0.10.26
+20 error npm  v2.10.0
+21 error No dist-tags found for node-js-package-example
+22 error If you need help, you may report this error at:
+22 error     <https://github.com/npm/npm/issues>
+23 verbose exit [ 1, true ]
