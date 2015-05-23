@@ -1,0 +1,19 @@
+{
+  "name": "node-js-package-example",
+  "version": "1.0.0",
+  "description": "node-js-package-example",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tatsuyano/node-js-package-example.git"
+  },
+  "author": "tatsuyano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tatsuyano/node-js-package-example/issues"
+  },
+  "homepage": "https://github.com/tatsuyano/node-js-package-example#readme"
+}
