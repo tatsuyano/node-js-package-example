@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/tatsuyano/node-js-package-example/issues"
   },
-  "homepage": "https://github.com/tatsuyano/node-js-package-example#readme"
+  "homepage": "https://github.com/tatsuyano/node-js-package-example#readme",
+  "dependencies": {
+    "once": "^1.3.0"
+  }
 }
